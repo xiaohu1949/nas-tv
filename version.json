@@ -1,9 +1,9 @@
 {
-  "versionCode": 99,
-  "versionName": "2.5.99",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.99-b99.apk",
+  "versionCode": 100,
+  "versionName": "2.5.100",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.100-b100.apk",
   "size": 85148949,
-  "notes": "b99 修一批「看着能播、实际会崩」的问题：①伪装扩展名的整集分片（短剧全集常 1.5G）原先把整片收进内存再返回，盒子上必 OOM 闪退——改成边读边写、Range 透传；②本地代理已发出响应头后再回退重发，VLC 收到半截数据+HTTP 头；③fMP4/CMAF 源的 #EXT-X-MAP 没改写，初始化段 404 导致黑屏；④退出播放页不作废已排队预取，占着带宽让列表翻页变慢；⑤NAS 预取探测在服务路径上同步出网，缓存过期时周期性卡一下；⑥续播进度不跟「集号重排」更新、hls_cache 一次性迁移会覆盖手动设置；⑦清单副本非原子写 + 两种模式共用一个文件，并发时 VLC 可能读到半截清单；⑧更新说明里的中文出现乱码/截断；⑨几处 Activity 已销毁后仍弹提示导致闪退。已回归 b97/b98 的判死分档与并发预取能力。",
+  "notes": "b100：七味地址接入服务端统一真源 qwhosts，默认 pkmkv 改 qwshow，BUILTIN 不再写死 pkmkv",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "95483aa7730de863523b12d74a341ebe47834884282be68697ac43f430ee4d3b"
+  "sha256": "d30a6e3c08354db445adc25d20f0169911660d488c3e793f9e477f27b11b8042"
 }
