@@ -1,0 +1,8 @@
+{
+  "versionCode": 90,
+  "versionName": "2.5.90",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.90-b90.apk",
+  "size": 85116181,
+  "notes": "接入 GitHub 自动更新：启动/菜单检查新版本，NAS 局域网直链下载，系统安装器覆盖安装，不再需要 U 盘。",
+  "htmlUrl": "https://github.com/xiaohu1949/nas-tv"
+}
