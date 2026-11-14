@@ -1,9 +1,9 @@
 {
-  "versionCode": 101,
-  "versionName": "2.5.101",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.101-b101.apk",
+  "versionCode": 102,
+  "versionName": "2.5.102",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.102-b102.apk",
   "size": 85148949,
-  "notes": "b101：七味统一真源做活——回前台节流重同步(5min)、优先跟服务端current(含降级)、qn63兜底仅从未同步成功时生效",
+  "notes": "设置页展示七味「地址来源」与「实测时间」：兑现 3.6.184 qwhosts 的 source/rankedAt 字段。地址弹窗显示来源档位（手动设置/插件实测排序/静态兜底等）与插件最近一次实测测速时间，菜单项带短来源标签，使用说明同步解释。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "338bcc8df796c47ead7212972fa8cce643c7269d009dc4b6c987ee7c83b495d0"
+  "sha256": "03f6e50511cf1c5a25730e3c6ad55c151dc3868fbc9fe2707c6503875cf66e9c"
 }
