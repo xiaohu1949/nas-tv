@@ -4,5 +4,6 @@
   "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.91-b91.apk",
   "size": 85116181,
   "notes": "七味「牛牛/无尽」两条线路全部失效时，电视端自动调用 NAS 备源并切换到量子资源，不再直接弹「这个源暂时播不了」。",
-  "htmlUrl": "https://github.com/xiaohu1949/nas-tv"
+  "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
+  "sha256": "67a7b6078365ba57b7303c50895710057d1b65dfc8c1dc82cf6325d7d3bdba15"
 }
