@@ -1,9 +1,9 @@
 {
-  "versionCode": 94,
-  "versionName": "2.5.94",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.94-b94.apk",
+  "versionCode": 95,
+  "versionName": "2.5.95",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.95-b95.apk",
   "size": 85132565,
-  "notes": "b93+b94：连续两次缓冲自动开启边播边缓存（下一集生效、不打断播放）；取分片对齐 tvbox——按域名补 Referer/Origin、分片下载失败自动重试（4xx 不重试），预取 3 片 + 256MB 缓存 + keep-alive。默认仍是源站直连，MENU 可随时关回。",
+  "notes": "b95：①修「开了边播边缓存依然卡」的真因——预取原来是单线程串行拉 3 片（实测源站单连接仅 110KB/s，而码率 128KB/s，永远追不上），改成 4 片并发预取（同 6 片并发实测 440KB/s，3.4 倍实时）；②顶栏新增常驻「设置」按钮，不必先按菜单键，内含解码方式/缓冲水位/边播边缓存/设备与解码能力/使用说明；③启动探测本机解码能力（H.264/HEVC 4K、AV1、VP9、内存、ABI），设置面板与视频层自检直接显示；④修电影天堂在换源弹层一直「未测到」——它的 api 是占位符 @nas，旧代码拿它拼 URL 必然失败，改测 NAS 往返。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "a06caf9aa2b010e0e1f052c2e495c999b693ffed436071c2d270cd6834267028"
+  "sha256": "5370f4e154f2f8f6be1a774e529417d9d5f2de8671133ffa56dfe9f60db896c2"
 }
