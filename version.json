@@ -1,9 +1,9 @@
 {
-  "versionCode": 92,
-  "versionName": "2.5.92",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.92-b92.apk",
-  "size": 85116181,
-  "notes": "新增电影天堂在线源：列表/搜索/详情由影视中心提供，电视端优先播放 dyttm3u8 直连线路，避免电影天堂分享短链空 200。",
+  "versionCode": 94,
+  "versionName": "2.5.94",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.94-b94.apk",
+  "size": 85132565,
+  "notes": "b93+b94：连续两次缓冲自动开启边播边缓存（下一集生效、不打断播放）；取分片对齐 tvbox——按域名补 Referer/Origin、分片下载失败自动重试（4xx 不重试），预取 3 片 + 256MB 缓存 + keep-alive。默认仍是源站直连，MENU 可随时关回。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "1b59bbf15528a6ece186ea527ebca4704235a32189382bbf151b565d54bc1ed1"
+  "sha256": "a06caf9aa2b010e0e1f052c2e495c999b693ffed436071c2d270cd6834267028"
 }
