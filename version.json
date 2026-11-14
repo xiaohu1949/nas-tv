@@ -1,9 +1,9 @@
 {
-  "versionCode": 100,
-  "versionName": "2.5.100",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.100-b100.apk",
+  "versionCode": 101,
+  "versionName": "2.5.101",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.101-b101.apk",
   "size": 85148949,
-  "notes": "b100：七味地址接入服务端统一真源 qwhosts，默认 pkmkv 改 qwshow，BUILTIN 不再写死 pkmkv",
+  "notes": "b101：七味统一真源做活——回前台节流重同步(5min)、优先跟服务端current(含降级)、qn63兜底仅从未同步成功时生效",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "d30a6e3c08354db445adc25d20f0169911660d488c3e793f9e477f27b11b8042"
+  "sha256": "338bcc8df796c47ead7212972fa8cce643c7269d009dc4b6c987ee7c83b495d0"
 }
