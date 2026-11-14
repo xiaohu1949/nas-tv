@@ -1,8 +1,8 @@
 {
-  "versionCode": 90,
-  "versionName": "2.5.90",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.90-b90.apk",
+  "versionCode": 91,
+  "versionName": "2.5.91",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.91-b91.apk",
   "size": 85116181,
-  "notes": "接入 GitHub 自动更新：启动/菜单检查新版本，NAS 局域网直链下载，系统安装器覆盖安装，不再需要 U 盘。",
+  "notes": "七味「牛牛/无尽」两条线路全部失效时，电视端自动调用 NAS 备源并切换到量子资源，不再直接弹「这个源暂时播不了」。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv"
 }
