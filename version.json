@@ -1,9 +1,9 @@
 {
-  "versionCode": 109,
-  "versionName": "2.5.109",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.109-b109.apk",
+  "versionCode": 110,
+  "versionName": "2.5.110",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.110-b110.apk",
   "size": 85132565,
-  "notes": "b109：七味搜索 /vs/ 15s→8s、/vt/ 9s→6s；服务端 3.6.193 网页首屏搜索去重",
+  "notes": "b110：更新检查 API/raw 加时间戳，避开 GitHub CDN 旧缓存；保留 b109 七味搜索超时对齐（/vs/ 8s、/vt/ 6s）",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "b2ce11f8d773b62768750bc212e1b6ba1ca4aebc4d6dbce373c0905fa65afa7a"
+  "sha256": "ee9583a0f37d78290e059455702ec0ec06917e2882056bc5d800eaffd02c58cf"
 }
