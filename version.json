@@ -1,9 +1,9 @@
 {
-  "versionCode": 104,
-  "versionName": "2.5.104",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.104-b104.apk",
+  "versionCode": 105,
+  "versionName": "2.5.105",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.105-b105.apk",
   "size": 85132565,
-  "notes": "b104 短剧同步红果：短剧墙只走红果、红果不进换源列表、原生 H.264 MP4 直通",
+  "notes": "红果短剧分页：电视端短剧墙支持加载更多（第 2 页起），不再固定 50 条；与网页端同步",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "b62ca955792fb632415309b1f71ae1c35266007ca33ce9942fcb73fcced0f0fe"
+  "sha256": "81c593114a5c7bf9c6945afb55b26b4f8941adf4ad284dd85af29af967e0dc48"
 }
