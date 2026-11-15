@@ -1,9 +1,9 @@
 {
-  "versionCode": 108,
-  "versionName": "2.5.108",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.108-b108.apk",
+  "versionCode": 109,
+  "versionName": "2.5.109",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.109-b109.apk",
   "size": 85132565,
-  "notes": "b108：详情缓存 30 分钟 TTL；分类墙 10 分钟过期刷新；换源弹层深色自绘；红果短剧分页",
+  "notes": "b109：七味搜索 /vs/ 15s→8s、/vt/ 9s→6s；服务端 3.6.193 网页首屏搜索去重",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "4caaa84a367ada2daee426565154ee416cfaf789c06ac545d9fc3590effc463d"
+  "sha256": "b2ce11f8d773b62768750bc212e1b6ba1ca4aebc4d6dbce373c0905fa65afa7a"
 }
