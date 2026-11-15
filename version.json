@@ -1,9 +1,9 @@
 {
-  "versionCode": 111,
-  "versionName": "2.5.111",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.111-b111.apk",
+  "versionCode": 112,
+  "versionName": "2.5.112",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.112-b112.apk",
   "size": 85132565,
-  "notes": "b111：无源过滤闸门 12s→8s，异常片 fail-open 保留；b110 更新缓存修复保留",
+  "notes": "b112：非短剧分类第2页，电视端加载更多走服务端聚合；b111 的 8s 无源闸门保留",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "c906eb3ee3961948ad476e88a7a6ca28c69575ccf5ff0b26ce6b227cf906967b"
+  "sha256": "fbeca3a3324d58aa2ef3b49a879490f29e3b83978045cc4caf1c7562547a97a5"
 }
