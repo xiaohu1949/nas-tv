@@ -1,9 +1,9 @@
 {
-  "versionCode": 107,
-  "versionName": "2.5.107",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.107-b107.apk",
+  "versionCode": 108,
+  "versionName": "2.5.108",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.108-b108.apk",
   "size": 85132565,
-  "notes": "换源弹层改为完全自绘深色面板：不再依赖系统 Dialog 主题，修复白底白字；源列表仍含七味在线/电影天堂",
+  "notes": "b108：详情缓存 30 分钟 TTL；分类墙 10 分钟过期刷新；换源弹层深色自绘；红果短剧分页",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "2e3ed2d71a68e963dfb06acf6db42b6d92e9b14a541e929c5d3913710b906530"
+  "sha256": "4caaa84a367ada2daee426565154ee416cfaf789c06ac545d9fc3590effc463d"
 }
