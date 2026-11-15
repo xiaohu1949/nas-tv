@@ -1,9 +1,9 @@
 {
-  "versionCode": 105,
-  "versionName": "2.5.105",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.105-b105.apk",
+  "versionCode": 106,
+  "versionName": "2.5.106",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.106-b106.apk",
   "size": 85132565,
-  "notes": "红果短剧分页：电视端短剧墙支持加载更多（第 2 页起），不再固定 50 条；与网页端同步",
+  "notes": "修复电视端换源弹层白底白字：强制深色窗口/列表底并显式设置标题颜色",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "81c593114a5c7bf9c6945afb55b26b4f8941adf4ad284dd85af29af967e0dc48"
+  "sha256": "75a38c7779751221690831f6d4bd5c47ee80dd6fe21d46a63cc7d3ad121c3e91"
 }
