@@ -1,9 +1,9 @@
 {
-  "versionCode": 112,
-  "versionName": "2.5.112",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.112-b112.apk",
-  "size": 85132565,
-  "notes": "b112：非短剧分类第2页，电视端加载更多走服务端聚合；b111 的 8s 无源闸门保留",
+  "versionCode": 113,
+  "versionName": "2.5.113",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.113-b113.apk",
+  "size": 85148949,
+  "notes": "新增「追剧」页：每条订阅显示本地已下集数、在途、最小缺口与集号方块条，遥控器可立即检查/暂停/开关自动下载",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "fbeca3a3324d58aa2ef3b49a879490f29e3b83978045cc4caf1c7562547a97a5"
+  "sha256": "32c9b98b0eededf23823cd1f4c4c5e72a08462b3968a57e3864fbb2bd19499cd"
 }
