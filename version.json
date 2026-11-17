@@ -1,10 +1,10 @@
 {
-  "versionCode": 117,
-  "versionName": "2.5.117",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.117-b117.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.117-b117.apk",
+  "versionCode": 118,
+  "versionName": "2.5.118",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.118-b118.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.118-b118.apk",
   "size": 85165333,
-  "notes": "审查未覆盖区域发现的竞态修复：①换源时分类墙不再被旧源响应覆盖（silentRefresh 加 mySid 守卫）；②换服务器后旧预取链不再把旧数据写回新缓存（prefetchGen 代际守卫）；③HLS 分片表 segs/index 合成不可变对象一次发布，杜绝换集并发时新表配旧索引预取错片；④退出播放页时在途预取下载按代际立即中断，不再白占45秒带宽（主链在播片不受影响）；⑤搜索页源清单迟到响应不再覆盖刚选好的源（sourcesSeq 守卫）。",
+  "notes": "b118 播放链路竞态修复：快速换集/换线路时旧解析回调不再播错集写错进度；进播放页的详情回填不再覆盖用户刚切到的新集/线路",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "f45877ec72b4505643182ec121df07fc77c33aa08361a311eb1f5a76c1de6c24"
+  "sha256": "0f987c92601b56e9ac0b067e42683827d83d0f782bbf7f8ecc1fa924fa4587ed"
 }
