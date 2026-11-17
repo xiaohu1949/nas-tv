@@ -1,10 +1,10 @@
 {
-  "versionCode": 116,
-  "versionName": "2.5.116",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.116-b116.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.116-b116.apk",
+  "versionCode": 117,
+  "versionName": "2.5.117",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.117-b117.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.117-b117.apk",
   "size": 85165333,
-  "notes": "清理审查遗留5个低危项：①更新包下载后校验sha256（防缓存旧包/损坏包/中间人，主备同源不影响回退，老元数据无sha则跳过兼容）；②删除订阅概览里算了不用的running死变量（显示口径与卡片tag一致，不动）；③七味域名短名对null/空加保护，首启未同步时不再NPE；④内置源表qw占位域名从写死的qwshow改成一眼可辨的placeholder，消除第二份真源隐患（运行时仍由统一真源覆盖）；⑤源诊断文本框不再可选中/可聚焦，避免TV焦点黏滞退不出。b115的4处真bug修复全部保留。",
+  "notes": "审查未覆盖区域发现的竞态修复：①换源时分类墙不再被旧源响应覆盖（silentRefresh 加 mySid 守卫）；②换服务器后旧预取链不再把旧数据写回新缓存（prefetchGen 代际守卫）；③HLS 分片表 segs/index 合成不可变对象一次发布，杜绝换集并发时新表配旧索引预取错片；④退出播放页时在途预取下载按代际立即中断，不再白占45秒带宽（主链在播片不受影响）；⑤搜索页源清单迟到响应不再覆盖刚选好的源（sourcesSeq 守卫）。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "e2f25451cd494c23e28b4abfc611078e8291d673dbebc7f63cb8b552184b5a9d"
+  "sha256": "f45877ec72b4505643182ec121df07fc77c33aa08361a311eb1f5a76c1de6c24"
 }
