@@ -1,10 +1,10 @@
 {
-  "versionCode": 114,
-  "versionName": "2.5.114",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.114-b114.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.114-b114.apk",
-  "size": 85148949,
-  "notes": "更新检查支持双通道：家里走局域网直链，出门在外自动回落到 GitHub 上的同一个包；顺带修了多地址回退只重试一跳的问题",
+  "versionCode": 115,
+  "versionName": "2.5.115",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.115-b115.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.115-b115.apk",
+  "size": 85165333,
+  "notes": "修复外部优化审查出的4个真bug：①进程内手动设七味地址不再被服务端5分钟后回冲、来源标签正确显示「手动设置」；②追剧卡片集号方块只画已播集，未播集不再误着色成缺口灰（对齐网页端逐集网格）；③更新下载多地址回退修复——404/内容截断/流中断也会回落到GitHub备用包（旧版只认网络错误）；④检查更新回调补isDestroyed判活，避免Activity重建后弹窗泄漏。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "84be8a8fb2c9b1666d4eded51365efbfd4e9fa12d330be7705c597cc5bc011e6"
+  "sha256": "7b0aabe4655e0fae9aca06459957138b12468876d052823eb4f63c1e9fa2d286"
 }
