@@ -1,10 +1,10 @@
 {
-  "versionCode": 115,
-  "versionName": "2.5.115",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.115-b115.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.115-b115.apk",
+  "versionCode": 116,
+  "versionName": "2.5.116",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.116-b116.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.116-b116.apk",
   "size": 85165333,
-  "notes": "修复外部优化审查出的4个真bug：①进程内手动设七味地址不再被服务端5分钟后回冲、来源标签正确显示「手动设置」；②追剧卡片集号方块只画已播集，未播集不再误着色成缺口灰（对齐网页端逐集网格）；③更新下载多地址回退修复——404/内容截断/流中断也会回落到GitHub备用包（旧版只认网络错误）；④检查更新回调补isDestroyed判活，避免Activity重建后弹窗泄漏。",
+  "notes": "清理审查遗留5个低危项：①更新包下载后校验sha256（防缓存旧包/损坏包/中间人，主备同源不影响回退，老元数据无sha则跳过兼容）；②删除订阅概览里算了不用的running死变量（显示口径与卡片tag一致，不动）；③七味域名短名对null/空加保护，首启未同步时不再NPE；④内置源表qw占位域名从写死的qwshow改成一眼可辨的placeholder，消除第二份真源隐患（运行时仍由统一真源覆盖）；⑤源诊断文本框不再可选中/可聚焦，避免TV焦点黏滞退不出。b115的4处真bug修复全部保留。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "7b0aabe4655e0fae9aca06459957138b12468876d052823eb4f63c1e9fa2d286"
+  "sha256": "e2f25451cd494c23e28b4abfc611078e8291d673dbebc7f63cb8b552184b5a9d"
 }
