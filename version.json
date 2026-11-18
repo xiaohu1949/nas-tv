@@ -1,10 +1,10 @@
 {
-  "versionCode": 146,
-  "versionName": "2.5.146",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.146-b146.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.146-b146.apk",
+  "versionCode": 147,
+  "versionName": "2.5.147",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.147-b147.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.147-b147.apk",
   "size": 85165333,
-  "notes": "b146：焦点态不再缩放（b145 的 1.02 实测仍有一点点超出封面边框），改为纯 3dp 黄描边 + 抬升 14dp，边框必然画在卡片自身边界内、四边完整；b145 的失焦兜底与上下 10dp 留白保留。",
+  "notes": "b147：顶栏页签与「影视中心 · TV」之间加 26dp 留白（原来 edge-40dp 在多数分辨率下等于 0，页签背景/描边贴到文字上，聚焦时 Tab 自己 1.05 缩放再往左顶出约 5dp 直接压字）。b146 的焦点不缩放、b145 失焦兜底均保留。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "7c3853e7fdc66f9f1783358d0cd7e00d055bf776d94dcb7b23c0f4b88981bc9c"
+  "sha256": "e963cc1948ee8eed7fee9a12d9181e4a23eeac09d9f0ea5df11a5ff842fb0aeb"
 }
