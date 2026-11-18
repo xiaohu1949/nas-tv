@@ -1,10 +1,10 @@
 {
-  "versionCode": 121,
-  "versionName": "2.5.121",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.121-b121.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.121-b121.apk",
+  "versionCode": 139,
+  "versionName": "2.5.139",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.139-b139.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.139-b139.apk",
   "size": 85148949,
-  "notes": "修复手动检查更新在自动检查期间无回调；缓冲计数改为 60 秒窗口内连续两次才降 480P。",
+  "notes": "投影兼容候选：1080P 5列/720P 4列自适应、约2.8%安全边距、低密度字号放大；补齐部分遥控 OK 键；方向键聚焦增加兜底；清理调试代码。未在投影真机验证。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "184b6fb5fcc67e53ee3b5fd4262f48b41f112e25c4f196a7adfb2af1b2577d9e"
+  "sha256": "a3c5fb3f01398eb579f56a83e63018e563445a7f8e68698de173cd64c36b2c2d"
 }
