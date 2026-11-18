@@ -1,10 +1,10 @@
 {
-  "versionCode": 143,
-  "versionName": "2.5.143",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.143-b143.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.143-b143.apk",
+  "versionCode": 145,
+  "versionName": "2.5.145",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.145-b145.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.145-b145.apk",
   "size": 85165333,
-  "notes": "紧急止血：b142 把工具条回连 setUpTarget() 误放进 buildHeader()（在面板实例化之前执行），导致开机 NPE 闪退进不了主界面。移到 onCreate 面板 new 完之后调用，含 b141 黄框修复与 b142 焦点回连。",
+  "notes": "b145：①焦点兜底 —— 资源页/下载页失焦时 D-pad 按键自动回落到面板入口，不再卡死无焦点；②选中框不再出屏 —— 焦点放大 1.045→1.02、content 上下各留 10dp、root/col 放开裁剪，封面边框四边完整；③b144 三组修复（播放器回调判活/列表键位合并/Ovod 线程池与快照/更新检查聚合报错）。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "f457a5f7090001d82d71ec4d321889e9645d90b7d9a251115ab24a1c13a42173"
+  "sha256": "9f167f086e1eff5f8a5ff0e76d8fe16691de7039c5596d6f1cbc6ac298f4538c"
 }
