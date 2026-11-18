@@ -1,10 +1,10 @@
 {
-  "versionCode": 148,
-  "versionName": "2.5.148",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.148-b148.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.148-b148.apk",
+  "versionCode": 149,
+  "versionName": "2.5.149",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.149-b149.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.149-b149.apk",
   "size": 85165333,
-  "notes": "b148：找资源页焦点改成逐层走 —— ↓ 资源标签 → 分类 → 封面；↑ 反向逐层退（之前封面按↑一步跳到「按片名搜」，中间那排分类标签整行被跳过）。顶栏找资源页签的↓在源表返回后也纠正到资源标签首项。b147 顶栏留白、b146 焦点不缩放均在。",
+  "notes": "b149：修在线观影左右连按时黄框闪来闪去 —— 海报墙每次移动都会在 120/260ms 补两次焦点（防止 requestFocus 被布局吃掉），但旧卡片没判断「这次移动是否已过时」，快速连按时它到点就把焦点抢回来，黄框在两张卡之间来回弹。现在补焦带代际序号 + 焦点已在别处/面板已切走就绝不抢，只有「这次移动后焦点真的丢了」才补。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "8fafe080a8583d46de61962abf32eb93818c38e0b2a5fb5fc7353e61cca9f69c"
+  "sha256": "fb0a763f7855111766b5f7467755ff989c5f880b2f3fc78bc71d28ddf2a74c9d"
 }
