@@ -1,10 +1,10 @@
 {
-  "versionCode": 120,
-  "versionName": "2.5.120",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.120-b120.apk",
-  "apkUrlFallback": "",
+  "versionCode": 121,
+  "versionName": "2.5.121",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.121-b121.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.121-b121.apk",
   "size": 85148949,
-  "notes": "b120：多码率源下一集预热；换集取消旧预热并改用独立线程；首次缓冲只本次会话自动缓存、不永久改默认直连；首次缓冲不再降 480；缓存清理不再误删活跃临时片。",
+  "notes": "修复手动检查更新在自动检查期间无回调；缓冲计数改为 60 秒窗口内连续两次才降 480P。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "40f313ee9cf16b106bce6f87e3cbd8324173729bd887e8dd0e0f90bf77fd47aa"
+  "sha256": "184b6fb5fcc67e53ee3b5fd4262f48b41f112e25c4f196a7adfb2af1b2577d9e"
 }
