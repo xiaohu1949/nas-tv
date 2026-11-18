@@ -1,10 +1,10 @@
 {
-  "versionCode": 147,
-  "versionName": "2.5.147",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.147-b147.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.147-b147.apk",
+  "versionCode": 148,
+  "versionName": "2.5.148",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.148-b148.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.148-b148.apk",
   "size": 85165333,
-  "notes": "b147：顶栏页签与「影视中心 · TV」之间加 26dp 留白（原来 edge-40dp 在多数分辨率下等于 0，页签背景/描边贴到文字上，聚焦时 Tab 自己 1.05 缩放再往左顶出约 5dp 直接压字）。b146 的焦点不缩放、b145 失焦兜底均保留。",
+  "notes": "b148：找资源页焦点改成逐层走 —— ↓ 资源标签 → 分类 → 封面；↑ 反向逐层退（之前封面按↑一步跳到「按片名搜」，中间那排分类标签整行被跳过）。顶栏找资源页签的↓在源表返回后也纠正到资源标签首项。b147 顶栏留白、b146 焦点不缩放均在。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "e963cc1948ee8eed7fee9a12d9181e4a23eeac09d9f0ea5df11a5ff842fb0aeb"
+  "sha256": "8fafe080a8583d46de61962abf32eb93818c38e0b2a5fb5fc7353e61cca9f69c"
 }
