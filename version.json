@@ -1,10 +1,10 @@
 {
-  "versionCode": 142,
-  "versionName": "2.5.142",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.142-b142.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.142-b142.apk",
+  "versionCode": 143,
+  "versionName": "2.5.143",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.143-b143.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.143-b143.apk",
   "size": 85165333,
-  "notes": "修下载/追剧页焦点死胡同：从下方卡片按上键到工具条后再按上回不到顶栏页签。把工具条上键回连到对应页签，形成闭环；面板回页签不误切页。含 b141 黄框修复。",
+  "notes": "紧急止血：b142 把工具条回连 setUpTarget() 误放进 buildHeader()（在面板实例化之前执行），导致开机 NPE 闪退进不了主界面。移到 onCreate 面板 new 完之后调用，含 b141 黄框修复与 b142 焦点回连。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "ae17b79f3088173255a7e583c55d8bf033f16bd0a90e333a582c0b212ad44c0b"
+  "sha256": "f457a5f7090001d82d71ec4d321889e9645d90b7d9a251115ab24a1c13a42173"
 }
