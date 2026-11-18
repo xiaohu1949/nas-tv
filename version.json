@@ -1,10 +1,10 @@
 {
-  "versionCode": 145,
-  "versionName": "2.5.145",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.145-b145.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.145-b145.apk",
+  "versionCode": 146,
+  "versionName": "2.5.146",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.146-b146.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.146-b146.apk",
   "size": 85165333,
-  "notes": "b145：①焦点兜底 —— 资源页/下载页失焦时 D-pad 按键自动回落到面板入口，不再卡死无焦点；②选中框不再出屏 —— 焦点放大 1.045→1.02、content 上下各留 10dp、root/col 放开裁剪，封面边框四边完整；③b144 三组修复（播放器回调判活/列表键位合并/Ovod 线程池与快照/更新检查聚合报错）。",
+  "notes": "b146：焦点态不再缩放（b145 的 1.02 实测仍有一点点超出封面边框），改为纯 3dp 黄描边 + 抬升 14dp，边框必然画在卡片自身边界内、四边完整；b145 的失焦兜底与上下 10dp 留白保留。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "9f167f086e1eff5f8a5ff0e76d8fe16691de7039c5596d6f1cbc6ac298f4538c"
+  "sha256": "7c3853e7fdc66f9f1783358d0cd7e00d055bf776d94dcb7b23c0f4b88981bc9c"
 }
