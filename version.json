@@ -1,10 +1,10 @@
 {
-  "versionCode": 140,
-  "versionName": "2.5.140",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.140-b140.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.140-b140.apk",
-  "size": 85148934,
-  "notes": "回滚更新包：功能与 b121 完全一致，仅把版本号抬到 2.5.140/b140，用于让电视从 121 或 139 更新回 b121 代码。",
+  "versionCode": 141,
+  "versionName": "2.5.141",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.141-b141.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.141-b141.apk",
+  "size": 85165333,
+  "notes": "修焦点黄框显示不全：首行切顶/首列切左/末列切右，以及画面四周忽隐忽现的黄晕。放开最外层容器裁剪，放大黄框完整显示，不动播放与下载功能。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "1cf4527773c56038877c9a181ae94b165245d3b0a7b6958d27387e12b48b4d60"
+  "sha256": "921e433701aec4fce23578269d9197e226bf8fbaf94dd658c7f818212ed1547b"
 }
