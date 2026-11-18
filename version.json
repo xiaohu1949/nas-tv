@@ -1,10 +1,10 @@
 {
-  "versionCode": 121,
-  "versionName": "2.5.121",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.121-b121.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.121-b121.apk",
-  "size": 85148949,
-  "notes": "回滚：恢复到 b121 稳定版，撤销 b139 投影兼容候选。",
+  "versionCode": 140,
+  "versionName": "2.5.140",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.140-b140.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.140-b140.apk",
+  "size": 85148934,
+  "notes": "回滚更新包：功能与 b121 完全一致，仅把版本号抬到 2.5.140/b140，用于让电视从 121 或 139 更新回 b121 代码。",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "184b6fb5fcc67e53ee3b5fd4262f48b41f112e25c4f196a7adfb2af1b2577d9e"
+  "sha256": "1cf4527773c56038877c9a181ae94b165245d3b0a7b6958d27387e12b48b4d60"
 }
