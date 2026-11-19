@@ -1,10 +1,10 @@
 {
-  "versionCode": 151,
-  "versionName": "2.5.151",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.151-b151.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.151-b151.apk",
+  "versionCode": 152,
+  "versionName": "2.5.152",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.152-b152.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.152-b152.apk",
   "size": 85165333,
-  "notes": "在线观影接入「荐片」源：分类/搜索/详情经 NAS 转发，码流现签现取（签名寿命约 20 秒，每次播放实时换新），不再出现黑屏",
+  "notes": "体验优化：搜索提级到一级入口+最近搜索词；返回恢复焦点；失败一键重试；播放器稳定性与无障碍修正",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "3ceff17217bbb512b6a852becfc8e5e4d46af9b7e70386a2e39fc454c2c5ab16"
+  "sha256": "0c71dfc5aa463d24101e764095c4b75f3be6e2304f2aee823d11ec9d35b4e92e"
 }
