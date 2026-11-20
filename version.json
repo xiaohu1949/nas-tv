@@ -1,10 +1,10 @@
 {
-  "versionCode": 152,
-  "versionName": "2.5.152",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.152-b152.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.152-b152.apk",
+  "versionCode": 153,
+  "versionName": "2.5.153",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.153-b153.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.153-b153.apk",
   "size": 85165333,
-  "notes": "体验优化：搜索提级到一级入口+最近搜索词；返回恢复焦点；失败一键重试；播放器稳定性与无障碍修正",
+  "notes": "修复资源搜索重复结果与旧缓存；追剧自动删除只认本地实文件，避免漏集误删",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "0c71dfc5aa463d24101e764095c4b75f3be6e2304f2aee823d11ec9d35b4e92e"
+  "sha256": "a2a8e670f525416eb4f50ecace1ec2399b5301abe2e8fa27604fdaf829fa0f58"
 }
