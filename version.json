@@ -1,10 +1,10 @@
 {
-  "versionCode": 154,
-  "versionName": "2.5.154",
-  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.154-b154.apk",
-  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.154-b154.apk",
-  "size": 85165333,
-  "notes": "搜索合并磁力+夸克网盘结果；追剧新增无源缺口跳集开关（默认关闭）；网页详情强制刷新",
+  "versionCode": 155,
+  "versionName": "2.5.155",
+  "apkUrl": "http://192.168.1.200:15007/nastv/NasTV-v2.5.155-b155.apk",
+  "apkUrlFallback": "https://raw.githubusercontent.com/xiaohu1949/nas-tv/main/apk/NasTV-v2.5.155-b155.apk",
+  "size": 85181717,
+  "notes": "电视端源表删除电影天堂(dytt)，只保留七味+荐片；服务端已判 dytt 采集接口死亡",
   "htmlUrl": "https://github.com/xiaohu1949/nas-tv",
-  "sha256": "8cc93b3c7f5681012a75a1eb2450dd78fc93a1b4da97d6e2d74ee43b103799b0"
+  "sha256": "4c61fad7a1c6109d348321443eda49d929ba3bf5e30b9527637a0a6db36cd8f1"
 }
